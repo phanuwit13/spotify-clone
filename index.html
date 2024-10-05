@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <navbar class="navbar-container">
+      <div class="navbar-logo">
+        <img
+          src="./assets/common/white-icon.webp"
+          width="32"
+          height="32"
+          alt=""
+        />
+      </div>
+      <div class="navbar-center">
+        <button class="button-secondary">
+          <img src="./assets/common/home.png" width="24" height="24" alt="" />
+        </button>
+        <div class="navbar-search">
+          <img
+            src="./assets/common/search-sm.png"
+            width="24"
+            height="24"
+            alt=""
+          />
+          <input type="text" placeholder="เล่นอะไรดี" />
+        </div>
+      </div>
+      <div class="navbar-action">
+        <button class="button-ghost">ลงทะเบียน</button>
+        <button>เข้าสู่ระบบ</button>
+      </div>
+    </navbar>
+    <div class="container">
+      <aside>
+        <div class="aside-header">
+          <div class="aside-header-collection">
+            <img
+              src="./assets/common/library.png"
+              width="24"
+              height="24"
+              alt=""
+            />
+            <span>คอลเลกชันของคุณ</span>
+          </div>
+          <div>
+            <img src="./assets/common/add.png" width="24" height="24" alt="" />
+          </div>
+        </div>
+        <div class="aside-main">
+          <div class="aside-main-item">
+            <p class="aside-main-item-title">สร้างเพลย์ลิสต์แรกของคุณ</p>
+            <p class="aside-main-item-desc">ง่ายนิดเดียว เราจะช่วยคุณเอง</p>
+            <button>สร้างเพลย์ลิสต์</button>
+          </div>
+          <div class="aside-main-item">
+            <p class="aside-main-item-title">
+              มาค้นหาพอดแคสต์เพื่อคุณจะได้ติดตามกันดีกว่า
+            </p>
+            <p class="aside-main-item-desc">เราจะคอยอัปเดตตอนใหม่ๆ ให้คุณ</p>
+            <button>เลือกดูพอดแคสต์</button>
+          </div>
+        </div>
+        <div class="aside-footer">
+          <div class="aside-footer-list">
+            <p>กฎหมาย</p>
+            <p>ศูนย์ความปลอดภัยและความเป็นส่วนตัว</p>
+            <p>นโยบายความเป็นส่วนตัว</p>
+            <p>คุกกี้</p>
+            <p>เกี่ยวกับโฆษณา</p>
+            <p>การเข้าถึง</p>
+          </div>
+          <p class="aside-footer-cookie">คุกกี้</p>
+          <button class="button-outline">
+            <img
+              src="./assets/common/globe.png"
+              width="20"
+              height="20"
+              alt=""
+            />
+            <span>ภาษาไทย</span>
+          </button>
+        </div>
+      </aside>
+      <main>
+        <!-- ศิลปินยอดนิยม  -->
+        <div class="main-section">
+          <div class="main-section-header">
+            <p class="main-section-header-title">ศิลปินยอดนิยม</p>
+            <p>แสดงทั้งหมด</p>
+          </div>
+          <div class="main-section-list">
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image rounded-full"
+                src="./assets/popular-artists/fellow-fellow.jpeg"
+                alt=""
+              />
+              <p class="main-section-item-title">เฟลโล่ เฟลโล่</p>
+              <p class="main-section-item-tag">ศิลปิน</p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image rounded-full"
+                src="./assets/popular-artists/jeff.jpeg"
+                alt=""
+              />
+              <p class="main-section-item-title">Jeff Satur</p>
+              <p class="main-section-item-tag">ศิลปิน</p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image rounded-full"
+                src="./assets/popular-artists/non-thanon.jpeg"
+                alt=""
+              />
+              <p class="main-section-item-title">NONT TANONT</p>
+              <p class="main-section-item-tag">ศิลปิน</p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image rounded-full"
+                src="./assets/popular-artists/the-toy.jpeg"
+                alt=""
+              />
+              <p class="main-section-item-title">เดอะทอยส์</p>
+              <p class="main-section-item-tag">ศิลปิน</p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image rounded-full"
+                src="./assets/popular-artists/three-man-down.jpeg"
+                alt=""
+              />
+              <p class="main-section-item-title">Three Man Down</p>
+              <p class="main-section-item-tag">ศิลปิน</p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image rounded-full"
+                src="./assets/popular-artists/polycat.jpeg"
+                alt=""
+              />
+              <p class="main-section-item-title">Polycat</p>
+              <p class="main-section-item-tag">ศิลปิน</p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+        </div>
+        <!-- อัลบั้มยอดนิยม -->
+        <div class="main-section">
+          <div class="main-section-header">
+            <p class="main-section-header-title">อัลบั้มยอดนิยม</p>
+            <p>แสดงทั้งหมด</p>
+          </div>
+          <div class="main-section-list">
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image"
+                src="./assets/popular-album/bamesis.jpeg"
+                alt=""
+              />
+              <p class="main-section-item-title">Bamesis</p>
+              <p class="main-section-item-tag">BamBam</p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image"
+                src="./assets/popular-album/golden.jpeg"
+                alt=""
+              />
+              <p class="main-section-item-title">GOLDEN</p>
+              <p class="main-section-item-tag">Jung Kook</p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image"
+                src="./assets/popular-album/ten.jpeg"
+                alt=""
+              />
+              <p class="main-section-item-title">TEN - The 1st Mini Album</p>
+              <p class="main-section-item-tag">TEN</p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image"
+                src="./assets/popular-album/layover.jpeg"
+                alt=""
+              />
+              <p class="main-section-item-title">Layover</p>
+              <p class="main-section-item-tag">V</p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image"
+                src="./assets/popular-album/rockstar.jpeg"
+                alt=""
+              />
+              <p class="main-section-item-title">Rockstar</p>
+              <p class="main-section-item-tag">LISA</p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image"
+                src="./assets/popular-album/new-woman.jpeg"
+                alt=""
+              />
+              <p class="main-section-item-title">New Woman (feat. ROSALÍA)</p>
+              <p class="main-section-item-tag">LISA, ROSALÍA</p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+        </div>
+        <!-- สถานีวิทยุยอดนิยม -->
+        <div class="main-section">
+          <div class="main-section-header">
+            <p class="main-section-header-title">สถานีวิทยุยอดนิยม</p>
+            <p>แสดงทั้งหมด</p>
+          </div>
+          <div class="main-section-list">
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image"
+                src="./assets/radio-station/ariana-grande.jpeg"
+                alt=""
+              />
+              <p class="main-section-item-tag">
+                กับ Maroon 5, Katy Perry, Ed Sheeran และอีกมาก
+              </p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image"
+                src="./assets/radio-station/bruno-mars.jpeg"
+                alt=""
+              />
+              <p class="main-section-item-tag">
+                กับ ค็อกเทล, Loso, เบดรูม ออดิโอ และอีกมาก
+              </p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image"
+                src="./assets/radio-station/jeff-satur.jpeg"
+                alt=""
+              />
+              <p class="main-section-item-tag">
+                กับ Billkin, เฟลโล่ เฟลโล่, โบกี้ไลอ้อน และอีกมาก
+              </p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image"
+                src="./assets/radio-station/non-tanont.jpeg"
+                alt=""
+              />
+              <p class="main-section-item-tag">
+                กับ เดอะทอยส์, โบกี้ไลอ้อน, ลิปตา และอีกมาก
+              </p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image"
+                src="./assets/radio-station/plamy.jpeg"
+                alt=""
+              />
+              <p class="main-section-item-tag">
+                กับ The Weeknd, Taylor Swift, Doja Cat และอีกมาก
+              </p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image"
+                src="./assets/radio-station/urboytj.jpeg"
+                alt=""
+              />
+              <p class="main-section-item-tag">
+                กับ NONT TANONT, เฟลโล่ เฟลโล่, Tilly Birds และอีกมาก
+              </p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+        </div>
+        <!-- ชาร์ตแนะนำ -->
+        <div class="main-section">
+          <div class="main-section-header">
+            <p class="main-section-header-title">ชาร์ตแนะนำ</p>
+            <p>แสดงทั้งหมด</p>
+          </div>
+          <div class="main-section-list">
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image"
+                src="./assets/recommended-charts/region_global.jpg"
+                alt=""
+              />
+              <p class="main-section-item-tag">
+                รายการอัปเดตประจำสัปดาห์ของคุณจากแทร็กที่มีการเล่นมากที่สุดในขณะนี้
+                - ทั่วโลก
+              </p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image"
+                src="./assets/recommended-charts/region_global_default.jpg"
+                alt=""
+              />
+              <p class="main-section-item-tag">
+                รายการอัปเดตประจำสัปดาห์ของคุณจากแทร็กที่มีการเล่นมากที่สุดในขณะนี้
+                - สหรัฐฯ
+              </p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image"
+                src="./assets/recommended-charts/region_us_default.jpg"
+                alt=""
+              />
+              <p class="main-section-item-tag">
+                รายการอัปเดตประจำวันของคุณจากแทร็กที่มีการเล่นมากที่สุดในขณะนี้
+                - ทั่วโลก
+              </p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image"
+                src="./assets/recommended-charts/region_us_default_2.jpg"
+                alt=""
+              />
+              <p class="main-section-item-tag">
+                รายการอัปเดตประจำวันของคุณจากแทร็กที่มีการเล่นมากที่สุดในขณะนี้
+                - สหรัฐฯ
+              </p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image"
+                src="./assets/recommended-charts/viral_region_global.jpg"
+                alt=""
+              />
+              <p class="main-section-item-tag">
+                รายการอัปเดตประจำวันของคุณจากแทร็กที่เป็นกระแสที่สุดในขณะนี้ -
+                ทั่วโลก
+              </p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image"
+                src="./assets/recommended-charts/region_global_default.jpg"
+                alt=""
+              />
+              <p class="main-section-item-tag">
+                รายการอัปเดตประจำวันของคุณจากแทร็กที่เป็นกระแสที่สุดในขณะนี้ -
+                สหรัฐฯ
+              </p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+        </div>
+        <!-- เพลย์ลิสต์ -->
+        <div class="main-section">
+          <div class="main-section-header">
+            <p class="main-section-header-title">เพลย์ลิสต์</p>
+            <p>แสดงทั้งหมด</p>
+          </div>
+          <div class="main-section-list">
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image"
+                src="./assets/playlist/1.jpeg"
+                alt=""
+              />
+              <p class="main-section-item-tag">
+                Sleep with sounds of pouring rain and occasional rolling
+                thunder.
+              </p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image"
+                src="./assets/playlist/2.jpeg"
+                alt=""
+              />
+              <p class="main-section-item-tag">
+                Wander into the magical mix of music, water, birds, and
+                calmness.
+              </p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image"
+                src="./assets/playlist/3.jpeg"
+                alt=""
+              />
+              <p class="main-section-item-tag">
+                Ambient drone to make you feel weightless.
+              </p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image"
+                src="./assets/playlist/4.jpeg"
+                alt=""
+              />
+              <p class="main-section-item-tag">
+                The perfect frequency for sleep or study – science tested,
+                listener approved.
+              </p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image"
+                src="./assets/playlist/5.jpeg"
+                alt=""
+              />
+              <p class="main-section-item-tag">
+                Wander into the magical mix of music, water, birds, and
+                calmness.
+              </p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="main-section-item">
+              <img
+                class="main-section-item-image"
+                src="./assets/playlist/6.jpeg"
+                alt=""
+              />
+              <p class="main-section-item-tag">
+                Instrumental beats for a restful night's sleep.
+              </p>
+              <img
+                class="main-section-item-play"
+                src="./assets/common/play.png"
+                width="48"
+                height="48"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+        </div>
+        <!-- footer -->
+        <footer>
+          <div class="footer-list">
+            <p class="footer-title">บริษัท</p>
+            <p>เกี่ยวกับ</p>
+            <p>งาน</p>
+            <p>For the Record</p>
+          </div>
+          <div class="footer-list">
+            <p class="footer-title">ชุมชน</p>
+            <p>สำหรับศิลปิน</p>
+            <p>ผู้พัฒนา</p>
+            <p>โฆษณา</p>
+            <p>นักลงทุน</p>
+            <p>ผู้ให้บริการ</p>
+          </div>
+          <div class="footer-list">
+            <p class="footer-title">ลิงก์ที่เป็นประโยชน์</p>
+            <p>การสนับสนุน</p>
+            <p>แอพมือถือฟรี</p>
+          </div>
+          <div class="footer-list">
+            <p class="footer-title">แพ็กเกจของ Spotify</p>
+            <p>Premium Individual</p>
+            <p>Premium Duo</p>
+            <p>Premium Family</p>
+            <p>Premium Student</p>
+            <p>Spotify Free</p>
+          </div>
+          <div class="footer-end">
+            <div class="footer-icon">
+              <img
+                src="./assets/common/facebook.png"
+                width="16"
+                height="16"
+                alt=""
+              />
+            </div>
+            <div class="footer-icon">
+              <img src="./assets/common/x.png" width="16" height="16" alt="" />
+            </div>
+            <div class="footer-icon">
+              <img src="./assets/common/ig.png" width="16" height="16" alt="" />
+            </div>
+          </div>
+        </footer>
+        <div class="copyright">© 2024 Spotify AB</div>
+      </main>
+    </div>
+    <div class="announcement">
+      <div>
+        <p class="announcement-example">ตัวอย่างของ Spotify</p>
+        <p>
+          ลงทะเบียนเพื่อฟังเพลงและพอดแคสต์ได้แบบไม่จำกัดและมีโฆษณาคั่นเป็นครั้งคราว
+          ไม่ต้องใช้บัตรเครดิต
+        </p>
+      </div>
+      <button>ลงทะเบียนฟรี</button>
+    </div>
+  </body>
+</html>
